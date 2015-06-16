@@ -44,6 +44,5 @@ begin
    loop
       Put_Line("Hello World " & Integer'Image(Counter));
       Counter := Counter + 1;
-      null;
    end loop;
 end Demo;
